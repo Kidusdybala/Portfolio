@@ -1,35 +1,54 @@
 import { ProjectCard } from '@/components/ui/project-card';
 import { Button } from '@/components/ui/button';
 import { Github } from 'lucide-react';
-import project1 from '@/assets/project-1.jpg';
-import project2 from '@/assets/project-2.jpg';
-import project3 from '@/assets/project-3.jpg';
+import yegnaChat from '@/assets/yegna-chat-1.png';
+import parkingSystem from '@/assets/parking-system.png';
+import recordManagement from '@/assets/record-management.png';
+import bettingImage from '@/assets/betting.png';
+import loginImage from '@/assets/login.png';
+import placeholder from '/placeholder.svg';
 
 export const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Dashboard",
-      description: "A comprehensive admin dashboard for e-commerce platforms with real-time analytics, inventory management, and customer insights. Built with React, Node.js, and PostgreSQL.",
-      image: project1,
-      technologies: ["React", "Node.js", "PostgreSQL", "Chart.js", "Stripe"],
-      liveUrl: "https://demo.com",
-      githubUrl: "https://github.com"
+      title: "YegnaChat - Real-time Chatting Platform",
+      description: "A comprehensive real-time messaging platform with video calling capabilities. Features secure JWT authentication, friend request system, real-time notifications, and news integration via News API. Deployed and accessible online.",
+      image: yegnaChat,
+      technologies: ["React", "Express", "MongoDB", "Node.js", "Socket.io", "WebRTC"],
+      liveUrl: "https://comfy-tiramisu-59c6aa.netlify.app/",
+      githubUrl: "https://github.com/Kidusdybala"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative project management tool with real-time updates, team collaboration features, and intuitive drag-and-drop interfaces. Includes mobile app version.",
-      image: project2,
-      technologies: ["Next.js", "TypeScript", "Supabase", "Framer Motion"],
+      title: "Parking Management System",
+      description: "A complete parking management solution with real-time space availability, reservation system, and integrated payment processing. Includes a chatbot for user assistance and comprehensive admin dashboard.",
+      image: parkingSystem,
+      technologies: ["React", "Laravel", "SQLite", "JWT", "Chapa Payment"],
       liveUrl: "https://demo.com",
-      githubUrl: "https://github.com"
+      githubUrl: "https://github.com/Kidusdybala"
     },
     {
-      title: "Social Media Platform",
-      description: "A modern social networking application with real-time messaging, content sharing, and advanced privacy controls. Scalable architecture for growing user base.",
-      image: project3,
-      technologies: ["React Native", "Node.js", "MongoDB", "Socket.io", "AWS"],
+      title: "Record Management System",
+      description: "An enterprise-level document management system for government departments. Features secure user authentication, inter-departmental communication, and comprehensive record tracking with admin oversight.",
+      image: recordManagement,
+      technologies: ["React", "Laravel", "MySQL", "Email/SMS Auth"],
       liveUrl: "https://demo.com",
-      githubUrl: "https://github.com"
+      githubUrl: "https://github.com/Kidusdybala"
+    },
+    {
+      title: "Betting-Web - Ethiopian Football Betting Platform",
+      description: "Real-time odds, secure payments, and live match betting with React & Node.js",
+      image: bettingImage,
+      technologies: ["React", "Node.js", "TypeScript"],
+      liveUrl: "https://demo.com",
+      githubUrl: "https://github.com/Kidusdybala"
+    },
+    {
+      title: "Library Management System",
+      description: "A comprehensive library management system built with TypeScript",
+      image: loginImage,
+      technologies: ["TypeScript"],
+      liveUrl: "https://demo.com",
+      githubUrl: "https://github.com/Kidusdybala"
     }
   ];
 
@@ -45,8 +64,8 @@ export const ProjectsSection = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               My <span className="text-gradient">Portfolio</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              A selection of projects that showcase my skills and passion for creating 
+            <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed">
+              A selection of projects that showcase my skills and passion for creating
               innovative solutions that solve real-world problems.
             </p>
           </div>
@@ -74,15 +93,15 @@ export const ProjectsSection = () => {
           <div className="text-center">
             <div className="glass-card p-8 max-w-2xl mx-auto">
               <h3 className="text-2xl font-semibold mb-4">Want to see more?</h3>
-              <p className="text-muted-foreground mb-6">
-                Check out my GitHub for more projects, open-source contributions, 
+              <p className="text-white mb-6">
+                Check out my GitHub for more projects, open-source contributions,
                 and code samples that demonstrate my development skills.
               </p>
               <Button 
                 className="bg-gradient-primary hover:glow-primary transition-all duration-300"
                 asChild
               >
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Kidusdybala" target="_blank" rel="noopener noreferrer">
                   <Github className="w-4 h-4 mr-2" />
                   View All Projects
                 </a>

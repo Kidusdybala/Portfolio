@@ -2,6 +2,8 @@ import { Button } from '@/components/ui/button';
 import { AnimatedBackground } from '@/components/ui/animated-background';
 import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
 import heroBg from '@/assets/hero-bg.jpg';
+import profileImg from '@/assets/kidus-profile.jpg';
+import kidusLogo from '@/assets/kidus-logo.png';
 
 export const HeroSection = () => {
   const scrollToSection = (id: string) => {
@@ -18,43 +20,43 @@ export const HeroSection = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
-      <AnimatedBackground />
       
       {/* Content */}
-      <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-        <div className="animate-fade-in">
-          <div className="mb-6">
-            <span className="inline-block px-4 py-2 rounded-full glass-card text-sm font-medium text-primary mb-4">
-              Welcome to my portfolio
-            </span>
-          </div>
+      <div className="relative z-10 max-w-6xl mx-auto px-4 pt-20">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Text Content */}
+          <div className="text-center lg:text-left animate-fade-in">
+            <div className="mb-6">
+              
+            </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Hi, I'm{' '}
-            <span className="text-gradient animate-glow">Alex Rivera</span>
+            <span className="text-gradient animate-glow">Kidus Adugna</span>
           </h1>
-          
-          <h2 className="text-xl md:text-2xl text-muted-foreground mb-8 font-light">
-            Full Stack Developer & Creative Problem Solver
+
+          <h2 className="text-xl md:text-2xl text-white mb-8 font-light">
+            Information Systems Graduate & Web Developer
           </h2>
-          
-          <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            I craft exceptional digital experiences with modern technologies. 
-            Passionate about clean code, innovative solutions, and bringing ideas to life.
+
+          <p className="text-lg text-white mb-12 max-w-2xl mx-auto leading-relaxed">
+            I am an information systems graduate from Haramaya University seeking to apply my unique skills and
+            academic background proficiency in an organization with an innovative vision. I am looking forward to
+            contributing to a dynamic team and supporting research and development efforts.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <Button 
-              size="lg" 
-              className="bg-gradient-primary hover:glow-primary transition-all duration-300"
+            <Button
+              size="default"
+              className="bg-gradient-primary hover:glow-primary transition-all duration-300 text-white"
               onClick={() => scrollToSection('projects')}
             >
               View My Work
             </Button>
-            <Button 
-              size="lg" 
+            <Button
+              size="default"
               variant="outline"
-              className="border-glass-border hover:bg-glass/50 transition-all duration-300"
+              className="border-glass-border hover:bg-primary hover:text-white transition-all duration-300 text-white"
               onClick={() => scrollToSection('contact')}
             >
               Get In Touch
@@ -64,17 +66,17 @@ export const HeroSection = () => {
           {/* Social Links */}
           <div className="flex justify-center gap-6 mb-16">
             <Button size="sm" variant="ghost" className="hover:text-primary transition-colors" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Kidusdybala" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5" />
               </a>
             </Button>
             <Button size="sm" variant="ghost" className="hover:text-primary transition-colors" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/kidusadugna/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5" />
               </a>
             </Button>
             <Button size="sm" variant="ghost" className="hover:text-primary transition-colors" asChild>
-              <a href="mailto:alex@example.com">
+              <a href="mailto:Sam684751@gmail.com">
                 <Mail className="w-5 h-5" />
               </a>
             </Button>
@@ -90,6 +92,20 @@ export const HeroSection = () => {
             >
               <ArrowDown className="w-5 h-5" />
             </Button>
+          </div>
+          </div>
+
+          {/* Profile Image */}
+          <div className="flex justify-center lg:justify-end animate-fade-in">
+            <div className="relative">
+              <div className="w-80 h-80 rounded-full overflow-hidden glass-card border-4 border-primary/20 shadow-2xl">
+                <img
+                  src={profileImg}
+                  alt="Kidus Adugna"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

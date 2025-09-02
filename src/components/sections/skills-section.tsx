@@ -1,14 +1,19 @@
 import { SkillCard } from '@/components/ui/skill-card';
-import { 
-  Code, 
-  Database, 
-  Palette, 
-  Server, 
-  Smartphone, 
-  Cloud,
-  GitBranch,
-  Zap
-} from 'lucide-react';
+import {
+  SiReact,
+  SiJavascript,
+  SiHtml5,
+  SiNodedotjs,
+  SiLaravel,
+  SiSharp,
+  SiMongodb,
+  SiMysql,
+  SiSqlite,
+  SiGit,
+  SiGithub
+} from 'react-icons/si';
+import { FaMicrosoft } from 'react-icons/fa';
+
 
 export const SkillsSection = () => {
   const skillCategories = [
@@ -16,22 +21,28 @@ export const SkillsSection = () => {
       title: "Frontend Development",
       skills: [
         {
-          title: "React & Next.js",
-          description: "Building dynamic, responsive web applications with modern React patterns and Next.js for production-ready apps.",
-          icon: <Code className="w-6 h-6" />,
-          level: 95
+          title: "React",
+          description: "Building dynamic, responsive web applications with modern React patterns and component-based architecture.",
+          icon: <SiReact className="w-8 h-8 text-blue-500" />,
+          level: 85
         },
         {
-          title: "TypeScript",
-          description: "Writing type-safe, scalable applications with advanced TypeScript features and best practices.",
-          icon: <Zap className="w-6 h-6" />,
+          title: "JavaScript",
+          description: "Writing efficient, interactive web applications with ES6+ features and modern JavaScript practices.",
+          icon: <SiJavascript className="w-8 h-8 text-yellow-500" />,
           level: 90
         },
         {
-          title: "UI/UX Design",
-          description: "Creating beautiful, intuitive user interfaces with modern design principles and accessibility in mind.",
-          icon: <Palette className="w-6 h-6" />,
-          level: 85
+          title: "HTML & CSS",
+          description: "Creating semantic, accessible web pages with modern CSS techniques and responsive design.",
+          icon: <SiHtml5 className="w-8 h-8 text-orange-500" />,
+          level: 95
+        },
+        {
+          title: "Tailwind CSS",
+          description: "Utility-first CSS framework for rapidly building custom user interfaces with responsive design.",
+          icon: <div className="w-8 h-8 bg-cyan-500 rounded-lg flex items-center justify-center text-white font-bold text-sm">TW</div>,
+          level: 90
         }
       ]
     },
@@ -40,38 +51,56 @@ export const SkillsSection = () => {
       skills: [
         {
           title: "Node.js & Express",
-          description: "Building robust REST APIs and microservices with Node.js, Express, and modern backend patterns.",
-          icon: <Server className="w-6 h-6" />,
-          level: 92
-        },
-        {
-          title: "Database Design",
-          description: "Designing efficient database schemas with PostgreSQL, MongoDB, and implementing complex queries.",
-          icon: <Database className="w-6 h-6" />,
-          level: 88
-        },
-        {
-          title: "Cloud & DevOps",
-          description: "Deploying and managing applications on AWS, Docker containers, and CI/CD pipelines.",
-          icon: <Cloud className="w-6 h-6" />,
+          description: "Building robust REST APIs and server-side applications with Node.js and Express framework.",
+          icon: <SiNodedotjs className="w-8 h-8 text-green-600" />,
           level: 80
+        },
+        {
+          title: "PHP (Laravel)",
+          description: "Developing web applications with Laravel framework, implementing MVC patterns and database operations.",
+          icon: <SiLaravel className="w-8 h-8 text-red-500" />,
+          level: 85
+        },
+        {
+          title: "C#",
+          description: "Building applications with C# programming language and .NET framework.",
+          icon: <SiSharp className="w-8 h-8 text-purple-600" />,
+          level: 75
         }
       ]
     },
     {
-      title: "Tools & Others",
+      title: "Databases & Tools",
       skills: [
         {
-          title: "Mobile Development",
-          description: "Cross-platform mobile apps with React Native and Progressive Web Apps for mobile-first experiences.",
-          icon: <Smartphone className="w-6 h-6" />,
-          level: 75
+          title: "MySQL",
+          description: "Relational database management with MySQL for data storage, querying, and optimization.",
+          icon: <SiMysql className="w-8 h-8 text-blue-600" />,
+          level: 85
         },
         {
-          title: "Version Control",
-          description: "Advanced Git workflows, code collaboration, and project management with modern development practices.",
-          icon: <GitBranch className="w-6 h-6" />,
-          level: 95
+          title: "MongoDB",
+          description: "NoSQL database management with MongoDB for flexible data storage and querying.",
+          icon: <SiMongodb className="w-8 h-8 text-green-600" />,
+          level: 85
+        },
+        {
+          title: "SQLite",
+          description: "Lightweight relational database with SQLite for embedded applications and local storage.",
+          icon: <SiSqlite className="w-8 h-8 text-blue-500" />,
+          level: 80
+        },
+        {
+          title: "Git",
+          description: "Version control system for tracking changes in source code during software development.",
+          icon: <SiGit className="w-8 h-8 text-orange-600" />,
+          level: 90
+        },
+        {
+          title: "GitHub",
+          description: "Platform for hosting and collaborating on Git repositories with project management tools.",
+          icon: <SiGithub className="w-8 h-8 text-gray-800" />,
+          level: 90
         }
       ]
     }
@@ -89,8 +118,8 @@ export const SkillsSection = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Technical <span className="text-gradient">Arsenal</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              A comprehensive toolkit built through years of hands-on experience 
+            <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed">
+              A comprehensive toolkit built through years of hands-on experience
               and continuous learning in the ever-evolving tech landscape.
             </p>
           </div>

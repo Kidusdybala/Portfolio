@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Linkedin } from 'lucide-react';
 import { useState } from 'react';
 import { useToast } from '@/hooks/use-toast';
 
@@ -37,20 +37,26 @@ export const ContactSection = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "alex.rivera@example.com",
-      href: "mailto:alex.rivera@example.com"
+      value: "Sam684751@gmail.com",
+      href: "mailto:Sam684751@gmail.com"
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+251 974 672 426",
+      href: "tel:+251974672426"
     },
     {
       icon: <MapPin className="w-5 h-5" />,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Kality, Addis Ababa",
       href: "#"
+    },
+    {
+      icon: <Linkedin className="w-5 h-5" />,
+      label: "LinkedIn",
+      value: "Kidus Adugna",
+      href: "https://www.linkedin.com/in/kidusadugna/"
     }
   ];
 
@@ -66,8 +72,8 @@ export const ContactSection = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Let's Build Something <span className="text-gradient">Amazing</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Have a project in mind or just want to chat about technology? 
+            <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed">
+              Have a project in mind or just want to chat about technology?
               I'd love to hear from you and discuss how we can work together.
             </p>
           </div>
@@ -79,7 +85,7 @@ export const ContactSection = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium mb-2">
+                    <label htmlFor="name" className="block text-sm font-medium mb-2 text-white">
                       Name *
                     </label>
                     <Input
@@ -93,7 +99,7 @@ export const ContactSection = () => {
                     />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium mb-2">
+                    <label htmlFor="email" className="block text-sm font-medium mb-2 text-white">
                       Email *
                     </label>
                     <Input
@@ -110,7 +116,7 @@ export const ContactSection = () => {
                 </div>
                 
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium mb-2">
+                  <label htmlFor="subject" className="block text-sm font-medium mb-2 text-white">
                     Subject *
                   </label>
                   <Input
@@ -125,7 +131,7 @@ export const ContactSection = () => {
                 </div>
                 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium mb-2">
+                  <label htmlFor="message" className="block text-sm font-medium mb-2 text-white">
                     Message *
                   </label>
                   <Textarea
@@ -161,10 +167,10 @@ export const ContactSection = () => {
                         {info.icon}
                       </div>
                       <div>
-                        <div className="font-medium text-foreground">{info.label}</div>
-                        <a 
+                        <div className="font-medium text-white">{info.label}</div>
+                        <a
                           href={info.href}
-                          className="text-muted-foreground hover:text-primary transition-colors"
+                          className="text-white hover:text-primary transition-colors"
                         >
                           {info.value}
                         </a>
@@ -176,19 +182,19 @@ export const ContactSection = () => {
 
               <div className="glass-card p-8 hover-lift">
                 <h3 className="text-xl font-semibold mb-4">Let's Connect</h3>
-                <p className="text-muted-foreground mb-6">
-                  I'm always interested in new opportunities and exciting projects. 
-                  Whether you're a startup looking for a technical co-founder or an 
+                <p className="text-white mb-6">
+                  I'm always interested in new opportunities and exciting projects.
+                  Whether you're a startup looking for a technical co-founder or an
                   established company needing development expertise, let's talk!
                 </p>
                 <div className="flex flex-col gap-3">
-                  <div className="text-sm text-muted-foreground">
+                  <div className="text-sm text-white">
                     ⚡ Usually responds within 24 hours
                   </div>
-                  <div className="text-sm text-muted-foreground">
+                  <div className="text-sm text-white">
                     🌍 Available for remote & on-site projects
                   </div>
-                  <div className="text-sm text-muted-foreground">
+                  <div className="text-sm text-white">
                     💡 Open to consulting and freelance work
                   </div>
                 </div>

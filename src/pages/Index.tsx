@@ -20,12 +20,9 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t border-glass-border/50 py-8">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="text-muted-foreground text-sm mb-4 md:mb-0">
-              © 2024 Alex Rivera. All rights reserved.
-            </div>
-            <div className="text-muted-foreground text-sm">
-              Built with ❤️ using React, TypeScript & Tailwind CSS
+          <div className="flex justify-center">
+            <div className="text-white text-sm">
+              © 2024 Kidus Adugna. All rights reserved.
             </div>
           </div>
         </div>

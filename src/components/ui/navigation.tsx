@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from './button';
 import { cn } from '@/lib/utils';
+import kidusLogo from '@/assets/kidus-logo.png';
 
 const navItems = [
   { id: 'home', label: 'Home' },
@@ -56,12 +57,17 @@ export const Navigation = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+
+          {/* Logo/Brand (left side) */}
           <div className="flex items-center">
-            <span className="text-xl font-bold text-gradient">Alex Rivera</span>
+            <img
+              src={kidusLogo}
+              alt="Kidus Adugna Logo"
+              className="h-12 w-auto"
+            />
           </div>
 
-          {/* Desktop Navigation */}
+          {/* Desktop Navigation (right side) */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <button
@@ -72,7 +78,7 @@ export const Navigation = () => {
                   'hover:text-primary',
                   activeSection === item.id
                     ? 'text-primary'
-                    : 'text-muted-foreground'
+                    : 'text-white'
                 )}
               >
                 {item.label}
@@ -80,7 +86,7 @@ export const Navigation = () => {
             ))}
           </div>
 
-          {/* Mobile menu button */}
+          {/* Mobile menu button (right side) */}
           <div className="md:hidden">
             <Button
               variant="ghost"
@@ -105,7 +111,7 @@ export const Navigation = () => {
                     'hover:text-primary',
                     activeSection === item.id
                       ? 'text-primary'
-                      : 'text-muted-foreground'
+                      : 'text-white'
                   )}
                 >
                   {item.label}
