@@ -4,7 +4,7 @@ import { Download, Coffee, Code, Lightbulb } from 'lucide-react';
 export const AboutSection = () => {
   const stats = [
     { number: '1+', label: 'Years Experience', icon: Coffee },
-    { number: '7+', label: 'Projects Completed', icon: Code },
+    { number: '10+', label: 'Projects Completed', icon: Code },
     { number: '3.51', label: 'CGPA', icon: Lightbulb },
   ];
 

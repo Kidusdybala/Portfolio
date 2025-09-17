@@ -6,6 +6,7 @@ import parkingSystem from '@/assets/parking-system.png';
 import recordManagement from '@/assets/record-management.png';
 import bettingImage from '@/assets/betting.png';
 import loginImage from '@/assets/login.png';
+import cityIssueTracker from '@/assets/city-issue-tracker.png';
 import placeholder from '/placeholder.svg';
 
 export const ProjectsSection = () => {
@@ -47,6 +48,14 @@ export const ProjectsSection = () => {
       description: "A comprehensive library management system built with TypeScript",
       image: loginImage,
       technologies: ["TypeScript"],
+      liveUrl: "https://demo.com",
+      githubUrl: "https://github.com/Kidusdybala"
+    },
+    {
+      title: "City Issue Tracker",
+      description: "A platform for citizens to report and track city issues with dashboards for officials and citizens. Features issue reporting, leaderboards, and real-time updates.",
+      image: cityIssueTracker,
+      technologies: ["React", "Node.js", "MongoDB", "Express"],
       liveUrl: "https://demo.com",
       githubUrl: "https://github.com/Kidusdybala"
     }
