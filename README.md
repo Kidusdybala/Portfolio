@@ -1,73 +1,122 @@
-# Welcome to your Lovable project
+# Kidus Adugna - Portfolio
 
-## Project info
+A modern, responsive portfolio website showcasing my projects, skills, and experience as an Information Systems graduate and web developer.
 
-**URL**: https://lovable.dev/projects/6eaaa7ed-e336-4e8e-96ea-daf499f0acbc
+## 🚀 Live Demo
 
-## How can I edit this code?
+[View Portfolio](https://portfolio-inky-pi-21.vercel.app/)
 
-There are several ways of editing your application.
+## 📋 About
 
-**Use Lovable**
+I'm Kidus Adugna, an Information Systems graduate from Haramaya University with a passion for developing innovative web applications. This portfolio showcases my journey, projects, and technical expertise in full-stack web development.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6eaaa7ed-e336-4e8e-96ea-daf499f0acbc) and start prompting.
+### Key Features
+- ✨ Modern glass-morphism design
+- 📱 Fully responsive layout
+- 🎨 Smooth animations and transitions
+- 🌙 Dark theme optimized
+- 📧 Contact form integration
+- 🔗 Social media links
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Technologies Used
 
-**Use your preferred IDE**
+- **Frontend Framework:** React 18
+- **Build Tool:** Vite
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui
+- **Icons:** Lucide React
+- **Deployment:** Lovable
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🏃‍♂️ Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
+- Node.js (version 16 or higher)
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. **Clone the repository**
+   ```bash
+   git clone <YOUR_GIT_URL>
+   cd portfolio
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+4. **Open your browser**
+   Navigate to `http://localhost:5173`
+
+## 📁 Project Structure
+
+```
+portfolio/
+├── public/                 # Static assets
+├── src/
+│   ├── assets/            # Images and media files
+│   ├── components/
+│   │   ├── sections/      # Main page sections
+│   │   └── ui/           # Reusable UI components
+│   ├── hooks/            # Custom React hooks
+│   ├── lib/              # Utility functions
+│   └── pages/            # Page components
+├── package.json
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+## 🎯 Skills & Expertise
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Frontend Development
+- React.js with TypeScript
+- Modern CSS (Tailwind CSS)
+- Responsive web design
+- Component-based architecture
 
-**Use GitHub Codespaces**
+### Backend Development
+- Node.js & Express
+- PHP (Laravel)
+- C# development
+- RESTful API design
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Database Management
+- MySQL
+- MongoDB
+- SQLite
+- Database design & optimization
 
-## What technologies are used for this project?
+### Additional Technologies
+- Real-time applications (Socket.io, WebRTC)
+- Payment integration
+- Cloud deployment (Vercel, Netlify, Railway, Render)
 
-This project is built with:
+## 📞 Contact
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Email:** sam684751@gmail.com
+- **LinkedIn:** [Kidus Adugna](https://www.linkedin.com/in/kidusadugna/)
+- **GitHub:** [Kidusdybala](https://github.com/Kidusdybala)
+- **Location:** Kality, Addis Ababa, Ethiopia
 
-## How can I deploy this project?
+## 🚀 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/6eaaa7ed-e336-4e8e-96ea-daf499f0acbc) and click on Share -> Publish.
+This project is deployed on Vercel. To deploy your own version:
 
-## Can I connect a custom domain to my Lovable project?
+1. Fork this repository
+2. Connect your GitHub account to [Vercel](https://vercel.com)
+3. Import your forked repository
+4. Deploy automatically with Vercel's default settings
 
-Yes, you can!
+## 📄 License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project is open source and available under the [MIT License](LICENSE).
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+⭐ **Feel free to fork this project and customize it for your own portfolio!**

@@ -37,8 +37,8 @@ export const ContactSection = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "Sam684751@gmail.com",
-      href: "mailto:Sam684751@gmail.com"
+      value: "sam684751@gmail.com",
+      href: "mailto:sam684751@gmail.com"
     },
     {
       icon: <Phone className="w-5 h-5" />,

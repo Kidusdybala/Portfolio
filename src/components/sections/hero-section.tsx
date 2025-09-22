@@ -76,7 +76,7 @@ export const HeroSection = () => {
               </a>
             </Button>
             <Button size="sm" variant="ghost" className="hover:text-primary transition-colors" asChild>
-              <a href="mailto:Sam684751@gmail.com">
+              <a href="mailto:sam684751@gmail.com">
                 <Mail className="w-5 h-5" />
               </a>
             </Button>
