@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Kidus Adugna" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Kidus Adugna">Kidus Adugna</h1>
+
+          <p class="title">Information Systems & Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:sam684751@gmail.com" class="contact-link">sam684751@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+251974672426" class="contact-link">+251 974 672 426</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Kera, Addis Ababa</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/kidusadugna" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link="about">About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="skills">Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="certificates">Certificates</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="portfolio">Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="contact">Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm an Information Systems graduate from Haramaya University with a deep passion for Software Developing.   </p>
+
+          
+
+          <p>
+            <b>" I  am a Code monk "</b>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I Do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full-Stack Web Development</h4>
+
+                <p class="service-item-text">
+                  with React, Node.js, Express and Laravel
+                </p>
+              </div>
+
+            </li>
+
+      
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Management</h4>
+
+                <p class="service-item-text">
+                  with MySQL, MongoDB, SQLite
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Telegram Bots and web apps</h4>
+
+                <p class="service-item-text">
+                  with Node, python , ngrok and web hooks
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Payment Integration</h4>
+
+                <p class="service-item-text">
+                  Chapa and Other payment integration
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Deployment and Hosting</h4>
+
+                <p class="service-item-text">
+                   Vercel, Netlify, Leapcell, Railway, Render with domain purchase and integration
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="skills" data-page="skills">
+
+        <header>
+          <h2 class="h2 article-title">Skills & Expertise</h2>
+        </header>
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Stacks i Use </h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Node.js & Express</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PHP (Laravel)</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MongoDB</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+</article>
+
+
+
+
+
+
+
+<!--
+  - #CERTIFICATES
+-->
+
+<article class="certificates" data-page="certificates">
+
+  <header>
+    <h2 class="h2 article-title">Certificates</h2>
+  </header>
+
+  <section class="certificates-filter">
+
+    <ul class="filter-list">
+
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>AWS</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Commvault</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Fortinet</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Sophos</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Extreme</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Dell</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Zyxel</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Hikvision</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Huawei</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Shinder</button>
+      </li>
+
+    </ul>
+
+  </section>
+
+  <section class="certificates-list">
+    <!-- Certificates will be dynamically populated here -->
+  </section>
+
+</article>
+
+
+<!--
+  - #CERTIFICATE MODAL
+-->
+
+<div class="modal-container" data-cert-modal-container>
+
+  <div class="overlay" data-cert-overlay></div>
+
+  <section class="testimonials-modal certificate-modal-content">
+
+    <button class="modal-close-btn" data-cert-modal-close-btn>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="modal-img-wrapper" id="cert-modal-content">
+      <!-- Image or Iframe will be injected here -->
+    </div>
+
+  </section>
+
+</div>
+
+
+
+
+
+
+
+<!--
+  - #PORTFOLIO
+-->
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">My Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Websites</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Telegram Bots</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Simulations</button>
+            </li>
+
+           
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Websites</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Telegram Bots</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Simulations</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Kidusdybala/YegnaChat" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="yegnachat" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">YegnaChat</h3>
+
+                <p class="project-category">Real-time Ethiopian messaging app (JavaScript)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Kidusdybala/Parking-System" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="parking" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Parking-System</h3>
+
+                <p class="project-category">Laravel-based parking system (JavaScript)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Kidusdybala/Record-managment-system" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="record" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Record Management System</h3>
+
+                <p class="project-category">Enterprise document management (PHP)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Kidusdybala/Betting-Web" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="betting" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Betting-Web</h3>
+
+                <p class="project-category">Ethiopian Football Betting Platform (TypeScript)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Kidusdybala/Library-managment-system" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="library" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Library Management System</h3>
+
+                <p class="project-category">Comprehensive library system (TypeScript)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Kidusdybala/City-IssueTracker" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="city" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">City Issue Tracker</h3>
+
+                <p class="project-category">Community issue reporting platform (JavaScript)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Kidusdybala/Smart_campus" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="smartcampus" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Smart Campus</h3>
+
+                <p class="project-category">Digital campus management system (TypeScript)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Kidusdybala/food-delivery-ecommerce" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="fooddelivery" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Food Delivery Ecommerce</h3>
+
+                <p class="project-category">Ecommerce platform for food delivery (TypeScript)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/Kidusdybala/efootball" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="efootball" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">eFootball</h3>
+
+                <p class="project-category">Football-related application (TypeScript)</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+<!--
+  - #PROJECT GALLERY MODAL
+-->
+
+<div class="project-modal-container" data-project-modal-container>
+
+  <div class="project-modal-overlay" data-project-overlay></div>
+
+  <section class="project-modal-content">
+
+    <button class="project-modal-close-btn" data-project-modal-close-btn>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="project-modal-header">
+      <div>
+        <h3 class="project-modal-title" data-project-modal-title>Project Title</h3>
+        <p class="project-modal-description" data-project-modal-description>Project description</p>
+      </div>
+    </div>
+
+    <div class="gallery-main-container">
+      <button class="gallery-nav-btn prev" data-gallery-prev>
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </button>
+      
+      <img src="" alt="Gallery Image" class="gallery-main-image" data-gallery-main-image>
+      
+      <button class="gallery-nav-btn next" data-gallery-next>
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </button>
+      
+      <span class="gallery-counter" data-gallery-counter>1 / 4</span>
+    </div>
+
+    <div class="gallery-thumbnails" data-project-gallery>
+      <!-- Thumbnails will be dynamically populated -->
+    </div>
+
+    <div class="project-modal-footer">
+      <a href="#" class="project-github-link" data-project-github-link target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+        <span>View on GitHub</span>
+      </a>
+    </div>
+
+  </section>
+
+</div>
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Get In Touch</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+
+  
+  
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/ui.js"></script>
+  <script src="./assets/js/certificates-data.js"></script>
+  <script src="./assets/js/certificates.js"></script>
+  <script src="./assets/js/projects-data.js"></script>
+  <script src="./assets/js/projects.js"></script>
+  <script src="./assets/js/main.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
