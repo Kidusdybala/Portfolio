@@ -67,7 +67,7 @@ function renderCertificates() {
      if (cert.type === 'image') {
        imgContent = `<img src="${cert.file}" alt="${title}" loading="lazy">`;
      } else {
-       imgContent = `<iframe src="${cert.file}" width="300" height="300" style="border: none;"></iframe>`;
+       imgContent = `<iframe src="${cert.file}" width="100%" height="200" style="border: none;"></iframe>`;
      }
 
      certItem.innerHTML = `

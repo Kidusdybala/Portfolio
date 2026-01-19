@@ -140,40 +140,54 @@ const projectsData = [
     title: 'CBE-Mobile',
     category: 'websites',
     description: 'Commercial Bank of Ethiopia mobile web app (TypeScript)',
-    thumbnail: './assets/images/ghh.png',
+    thumbnail: './assets/images/projects/cbe%20mobile/cbe.png',
     githubUrl: 'https://github.com/Kidusdybala/CBE-Mobile',
     liveUrl: null,
-    gallery: []
+    gallery: [
+      './assets/images/projects/cbe%20mobile/cbe.png'
+    ]
   },
   {
     id: 'hotelmanagement',
     title: 'C-Hotel Management',
     category: 'websites',
     description: 'Hotel management system (C#)',
-    thumbnail: './assets/images/ghh.png',
+    thumbnail: './assets/images/projects/C%20hotel%20managment/Hotel%20management.jpg',
     githubUrl: 'https://github.com/Kidusdybala/C-hotel-managment',
     liveUrl: null,
-    gallery: []
+    gallery: [
+      './assets/images/projects/C%20hotel%20managment/Hotel%20management.jpg',
+      './assets/images/projects/C%20hotel%20managment/user%20page.jpg',
+      './assets/images/projects/C%20hotel%20managment/Screenshot%202026-01-19%20131003.png',
+      './assets/images/projects/C%20hotel%20managment/Screenshot%202026-01-19%20131023.png'
+    ]
   },
   {
     id: 'horizonbus',
     title: 'Horizon-Bus',
     category: 'websites',
     description: 'Real-time bus ticket booking system (PHP)',
-    thumbnail: './assets/images/ghh.png',
+    thumbnail: './assets/images/projects/Horizon%20bus/Managing-Groups-with-React-JS-event-booking-app-1.png',
     githubUrl: 'https://github.com/Kidusdybala/Horizon-Bus',
     liveUrl: null,
-    gallery: []
+    gallery: [
+      './assets/images/projects/Horizon%20bus/Managing-Groups-with-React-JS-event-booking-app-1.png',
+      './assets/images/projects/Horizon%20bus/images.jpg'
+    ]
   },
   {
     id: 'ethiofantasy',
     title: 'Ethio Fantasy Premier League',
     category: 'websites',
     description: 'Ethiopian fantasy football league platform',
-    thumbnail: './assets/images/ghh.png',
+    thumbnail: './assets/images/projects/ethio%20fantasy/main.jpg',
     githubUrl: 'https://github.com/Kidusdybala/ethio-fantasy-premier-league',
     liveUrl: null,
-    gallery: []
+    gallery: [
+      './assets/images/projects/ethio%20fantasy/main.jpg',
+      './assets/images/projects/ethio%20fantasy/Template-Teamv2.webp',
+      './assets/images/projects/ethio%20fantasy/sda.webp'
+    ]
   },
 
   // ==================== TELEGRAM BOTS ====================
@@ -227,20 +241,26 @@ const projectsData = [
     title: 'Cisco Packet Tracker',
     category: 'simulations',
     description: 'Cisco network simulation and packet tracer projects (HTML)',
-    thumbnail: './assets/images/ghh.png',
+    thumbnail: './assets/images/projects/cisco/main.png',
     githubUrl: 'https://github.com/Kidusdybala/cisco-packet-tracker',
     liveUrl: null,
-    gallery: []
+    gallery: [
+      './assets/images/projects/cisco/main.png',
+      './assets/images/projects/cisco/Screenshot-(74).png'
+    ]
   },
   {
     id: 'huawieensp',
     title: 'Huawei eNSP',
     category: 'simulations',
     description: 'Huawei Enterprise Network Simulation Platform projects (HTML)',
-    thumbnail: './assets/images/ghh.png',
+    thumbnail: './assets/images/projects/huwawie/main.png',
     githubUrl: 'https://github.com/Kidusdybala/huwawie-ensp',
     liveUrl: null,
-    gallery: []
+    gallery: [
+      './assets/images/projects/huwawie/main.png',
+      './assets/images/projects/huwawie/sub.png'
+    ]
   },
 
   // ==================== APPLICATIONS ====================
