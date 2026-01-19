@@ -1042,6 +1042,27 @@ main {
   --eerie-black-2: hsl(240, 2%, 20%);
 }
 
+.filter-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.filter-item button {
+  background: none;
+  color: var(--white-1);
+  font-size: var(--fs-6);
+  transition: var(--transition-1);
+}
+
+.filter-item button:hover,
+.filter-item button.active {
+  color: var(--orange-yellow-crayola);
+}
+
 .project-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
