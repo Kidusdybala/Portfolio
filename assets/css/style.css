@@ -1464,8 +1464,9 @@ textarea.form-input::-webkit-resizer {
 .certificate-item img,
 .certificate-item iframe {
   width: 100%;
-  max-width: 300px;
-  height: auto;
+  height: 150px;
+  /* Match projects */
+  object-fit: cover;
   border-radius: 8px;
   margin-bottom: 15px;
 }
