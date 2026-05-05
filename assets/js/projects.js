@@ -112,7 +112,7 @@ function openProjectModal(project) {
   
   // Set modal content
   if (projectModalTitle) projectModalTitle.textContent = project.title;
-  if (projectModalDescription) projectModalDescription.textContent = project.description;
+  if (projectModalDescription) projectModalDescription.innerHTML = project.description;
   if (projectGithubLink) projectGithubLink.href = project.githubUrl;
   
   // Render gallery
