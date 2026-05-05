@@ -2747,3 +2747,19 @@ textarea.form-input::-webkit-resizer {
     font-size: var(--fs-7);
   }
 }
+
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.skills-item .title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.skills-item .title-wrapper i {
+  font-size: 30px;
+}
